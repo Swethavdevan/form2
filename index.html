@@ -1,0 +1,51 @@
+<HTML>
+ <HEAD>
+  <TITLE>MAIN</TITLE>
+ </HEAD>
+ <BODY>
+ <CENTER>
+  <H3>REGISTER YOURSELF</H3>
+  <P>Fill up the form</P>
+  <FORM METHOD="POST" ACTION="/cai-b in/formmail">
+   <INPUT TYPE="hidden"NAME="recipient" VALUE="swethavdevan@gmail.com">  
+   <INPUT TYPE="hidden"NAME="subject" VALUE="Registration Form">
+   <INPUT TYPE="hidden"NAME="redirect" VALUE="main.html">
+   <P><STRONG>NAME</STRONG><INPUT NAME="name" TYPE="text" SIZE="25"></P>
+   <P><STRONG>EMAIL</STRONG><INPUT NAME="email" TYPE="text" SIZE="25"></P>
+   <P><STRONG>MOBILE</STRONG><INPUT NAME="mobile" TYPE="text" SIZE="25"></P>
+   <P><STRONG>GENDER</STRONG>
+    MALE<INPUT NAME="gender" TYPE="radio" VALUE="male"><BR>
+    FEMALE<INPUT NAME="gender" TYPE="radio" VALUE="female">
+   </P>
+   <P><STRONG>ADDRESS</STRONG>
+    <TEXTAREA NAME="address" ROWS="4" COLUMNS="40"></TEXTAREA>
+   </P>
+   <P><STRONG>SELECT LANGUAGES</STRONG>
+    C
+     <INPUT NAME="Languages" TYPE="checkbox" VALUE="C"><BR>
+    C++
+     <INPUT NAME="Languages" TYPE="checkbox" VALUE="C++"><BR>
+    PYTHON
+     <INPUT NAME="Languages" TYPE="checkbox" VALUE="Python"><BR>
+    JAVA
+     <INPUT NAME="Languages" TYPE="checkbox" VALUE="Java"><BR>
+    RUBY
+     <INPUT NAME="Languages" TYPE="checkbox" VALUE="Ruby"><BR>
+    PERL
+     <INPUT NAME="Languages" TYPE="checkbox" VALUE="Perl">
+   </P>
+   <P><STRONG>AGE GROUP</STRONG>
+    <SELECT NAME="age">
+     <OPTION SELECTED>AGE
+     <OPTION> <18
+     <OPTION> 18-25
+     <OPTION> 25-30
+     <OPTION> >30
+    </SELECT>
+   </P>
+   <INPUT TYPE ="submit" VALUE="REGISTER">
+   <INPUT TYPE="reset" VALUE="ANOTHER RESPONSE">
+  </FORM>
+ </CENTER>
+ </BODY>
+</HTML>
